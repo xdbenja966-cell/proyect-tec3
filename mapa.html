@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mapa interactivo - E.E.S.T. N.º 3 Islas Malvinas, Lanús">
+  <title>Mapa interactivo | E.E.S.T. N.º 3 «Islas Malvinas»</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+<body class="">
+  <div id="header-placeholder"></div>
+  <main>
+    <section class="page-banner"><div class="container"><span class="eyebrow">Recorrido virtual</span><h1>Explorá la Técnica 3</h1><p>Elegí el piso para abrir el recorrido interactivo.</p></div></section>
+    <section class="section"><div class="container">
+      <div class="map-tabs"><button class="tab-btn active" type="button" data-map="planta-baja" aria-pressed="true">Planta baja</button><button class="tab-btn" type="button" data-map="primer-piso" aria-pressed="false">Primer piso</button></div>
+      <div class="map-frame map-panel active" id="planta-baja"><iframe src="https://www.thinglink.com/view/scene/2168541961424732646" title="Mapa interactivo de planta baja" allowfullscreen loading="lazy" allow="gyroscope; accelerometer; magnetometer"></iframe></div>
+      <div class="map-frame map-panel" id="primer-piso"><iframe src="https://www.thinglink.com/view/scene/2169090972208595621" title="Mapa interactivo del primer piso" allowfullscreen loading="lazy" allow="gyroscope; accelerometer; magnetometer"></iframe></div>
+      <p class="notice"><i class="fas fa-info-circle"></i> El recorrido del primer piso faltan imagenes... -- proximamente -- </p>
+    </div></section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script src="script.js"></script>
+</body>
+</html>

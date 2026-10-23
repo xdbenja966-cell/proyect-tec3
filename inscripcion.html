@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Inscripción 2027 - E.E.S.T. N.º 3 Islas Malvinas, Lanús">
+  <title>Inscripción 2027 | E.E.S.T. N.º 3 «Islas Malvinas»</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+<body class="">
+  <div id="header-placeholder"></div>
+  <main>
+    <section class="page-banner"><div class="container"><span class="eyebrow">Ciclo lectivo 2027</span><h1>Inscripción 2027</h1><p>Completá tus datos para expresar tu interés en la escuela.</p></div></section>
+    <section class="section"><div class="container form-container">
+      <div class="notice"><i class="fas fa-info-circle"></i> Este formulario es una maqueta visual. Todavía no envía ni guarda los datos. Antes de usarlo con información real, hay que conectarlo a un sistema autorizado de la escuela.</div>
+      <form class="inscription-form">
+        <div class="form-row"><div class="form-group"><label for="nombre">Nombre *</label><input id="nombre" name="nombre" required placeholder="Ingresá tu nombre"></div><div class="form-group"><label for="apellido">Apellido *</label><input id="apellido" name="apellido" required placeholder="Ingresá tu apellido"></div></div>
+        <div class="form-row"><div class="form-group"><label for="edad">Edad *</label><input type="number" id="edad" name="edad" min="1" max="100" required placeholder="Ingresá tu edad"></div><div class="form-group"><label for="genero">Género *</label><select id="genero" name="genero" required><option value="">Seleccioná una opción</option><option>Femenino</option><option>Masculino</option><option>Otro</option><option>Prefiero no decirlo</option></select></div></div>
+        <div class="form-row"><div class="form-group"><label for="anio">Año que cursa actualmente *</label><select id="anio" name="anio" required><option value="">Seleccioná un año</option><option>1.º</option><option>2.º</option><option>3.º</option><option>4.º</option><option>5.º</option><option>6.º</option></select></div><div class="form-group"><label for="ingreso">Año al que desea ingresar *</label><select id="ingreso" name="ingreso" required><option value="">Seleccioná un año</option><option>2027</option><option>2028</option></select></div></div>
+        <div class="form-row"><div class="form-group"><label for="tecnicatura">Tecnicatura de interés *</label><select id="tecnicatura" name="tecnicatura" required><option value="">Seleccioná una tecnicatura</option><option>Programación</option><option>Turismo</option><option>Construcción</option></select></div><div class="form-group"><label for="contacto">Correo electrónico o teléfono *</label><input id="contacto" name="contacto" required placeholder="Ingresá tu correo o teléfono"></div></div>
+        <div class="form-group"><label for="adulto">Nombre y contacto de un adulto responsable *</label><input id="adulto" name="adulto" required placeholder="Nombre, teléfono o correo"></div>
+        <div class="form-group"><label for="consultas">Consultas adicionales</label><textarea id="consultas" name="consultas" rows="4" placeholder="Escribí tu mensaje (opcional)"></textarea></div>
+        <button type="submit" class="btn btn-primary">Empezá mi futuro hoy</button>
+        <p class="form-note">No ingreses datos personales reales hasta que la escuela confirme cómo se recibirán y protegerán.</p>
+      </form>
+    </div></section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script src="script.js"></script>
+</body>
+</html>
