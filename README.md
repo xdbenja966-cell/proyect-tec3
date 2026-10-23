@@ -43,7 +43,7 @@ El sitio està organizado de la siguiente manera:
         <th>index.html</th>
         <th>Página de inicio con bienvenida y acceso rápidos</th>
      </tr>
-  </th
+  </th>
     <tr>
       <td>nosotros.html</td>
       <td>Información sobre la institución y su propuesta educativa</td>
